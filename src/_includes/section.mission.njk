@@ -1,1 +1,8 @@
-Mission
+<div class="self-center w-full pb-12">
+  <div class="w-full">
+    <h2 class="font-bold tracking-widest text-4xl">Our mission</h2>
+    {% for section in collections.mission %}
+      <div class="text-lg">{{ section.templateContent | safe }}</div>
+    {% endfor %}
+  </div>
+</div>

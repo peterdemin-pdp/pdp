@@ -1,1 +1,8 @@
-Offer
+<div class="self-center w-full pb-12">
+  <div class="w-full">
+    <h2 class="font-bold tracking-widest text-4xl">What we offer</h2>
+    {% for section in collections.offer %}
+      <div class="text-lg">{{ section.templateContent | safe }}</div>
+    {% endfor %}
+  </div>
+</div>

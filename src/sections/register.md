@@ -2,4 +2,4 @@
 type: register
 ---
 
-Don't worry, be happy.
+Sign up now to be notified when we go live!
