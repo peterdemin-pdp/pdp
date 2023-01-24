@@ -7,7 +7,7 @@
           {{ item.templateContent | safe }}
         </div>
 
-        <form class="w-full flex flex-row my-20" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="name" action="/.netlify/functions/submission-created">
+        <form class="w-full flex flex-row my-20" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="name">
           <div hidden aria-hidden="true">
             <label>
               Don’t fill this out if you're human: 
@@ -19,6 +19,15 @@
             <button class="bg-purple-600 text-gray-200 py-2 px-4" type="submit">Subscribe</button>
           </div>
         </form>
+
+        <label class="block text-gray-200 text-left px-2 mt-4" for="gdpr_37169">
+          <input class="leading-tight" type="checkbox" id="gdpr_37169" name="gdpr[37169]" value="Y" require>
+          <span class="text-md font-light">
+            I agree with the <a href="/privacy/" class="underline hover:no-underline hover:text-purple-600"
+itle="Privacy policy" target="_blank">Privacy Policy</a>
+          </span>
+        </label>
+
 
       </div>
     </div>
