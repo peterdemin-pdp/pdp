@@ -1,9 +1,9 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'register' %}
-    <div id="register" class="w-full flex flex-col justify-center items-center bg-gray-800">
+    <div id="register" class="w-full rounded-lg flex flex-col justify-center items-center bg-gray-800">
       <div class="self-center text-center w-full">
         <h2 class="font-bold tracking-widest text-gray-200 text-4xl mb-4">{{ item.data.title }}</h2>
-        <div class="font-light text-gray-400 text-xl">
+        <div class="font-light text-purple-300 text-3xl">
           {{ item.templateContent | safe }}
         </div>
 
