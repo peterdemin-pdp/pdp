@@ -7,7 +7,7 @@
           {{ item.templateContent | safe }}
         </div>
 
-        <form class="w-full flex flex-row my-20" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="name">
+        <form class="w-full flex flex-row my-20" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="name" action="/.netlify/functions/submission-created">
           <div hidden aria-hidden="true">
             <label>
               Don’t fill this out if you're human: 
