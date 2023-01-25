@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="2.7697033"
-     inkscape:cx="99.288614"
-     inkscape:cy="279.81337"
+     inkscape:zoom="0.86705404"
+     inkscape:cx="-189.14623"
+     inkscape:cy="314.85927"
      inkscape:window-width="2560"
      inkscape:window-height="1412"
      inkscape:window-x="0"
@@ -40,40 +40,41 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.32291655;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stroke-linecap:round;paint-order:fill markers stroke"
-       d="m 33.157244,65.972935 c 0,-15.960504 11.760371,-34.721097 32.901039,-34.721097 21.140668,0 33.88107,16.940535 34.441087,34.861101 0,0 -1.060874,-7.946904 -8.417765,-7.955 -7.356895,-0.0081 -8.417766,7.919999 -8.417766,7.919999 0,0 -1.061025,-7.946904 -8.417766,-7.955 -7.356741,-0.0081 -8.327537,7.874885 -8.327537,7.874885 0,0 -1.571262,-7.905642 -8.507994,-7.909886 -6.936732,-0.0042 -8.417766,7.919999 -8.417766,7.919999 0,0 -1.761043,-7.950756 -8.417766,-7.955 -6.656723,-0.0042 -8.417766,7.919999 -8.417766,7.919999 z"
+       style="fill:none;stroke:#000000;stroke-width:1.85208317;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 11.857358,63.696007 c 0,-25.514344 18.800043,-55.5048909 52.595359,-55.5048909 33.795317,0 54.162033,27.0810159 55.057273,55.7287009 0,0 -1.69591,-12.703863 -13.45658,-12.716805 -11.76068,-0.01295 -13.45658,12.660852 -13.45658,12.660852 0,0 -1.696147,-12.703862 -13.456579,-12.716804 -11.760432,-0.01295 -13.31234,12.588733 -13.31234,12.588733 0,0 -2.511807,-12.637901 -13.600816,-12.644686 -11.089009,-0.0067 -13.456579,12.660852 -13.456579,12.660852 0,0 -2.81519,-12.71002 -13.45658,-12.716804 -10.641388,-0.0067 -13.456578,12.660852 -13.456578,12.660852 z"
        id="path160"
        sodipodi:nodetypes="czczczczczc" />
     <circle
-       style="fill:none;stroke:#000000;stroke-width:1.32292;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.85208317;stroke-dasharray:none;stroke-opacity:1"
        id="path1048"
-       cx="66.828247"
-       cy="81.748322"
-       r="10.920345" />
+       cx="65.683563"
+       cy="88.914429"
+       r="17.457184" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.32292;stroke-dasharray:none;stroke-opacity:1"
-       d="M 66.918516,70.861287 V 65.979306"
+       style="fill:none;stroke:#000000;stroke-width:1.85208317;stroke-dasharray:none;stroke-opacity:1"
+       d="M 65.827879,71.510491 V 63.706192"
        id="path1158"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.32292;stroke-dasharray:none;stroke-opacity:1"
-       d="m 66.957412,93.131432 c 0,0.215835 0.06814,5.461389 0.06814,5.902648 0,4.857 -3.450153,8.51418 -7.348373,8.65547 -6.81358,0.24695 -9.240291,-6.3002 -9.240291,-6.3002"
+       style="fill:none;stroke:#000000;stroke-width:1.85208317;stroke-dasharray:none;stroke-opacity:1"
+       d="m 65.890058,107.11138 c 0,0.34503 0.108928,8.73054 0.108928,9.43593 0,7.76436 -5.515389,13.6107 -11.747055,13.83656 C 43.359793,130.77865 39.48047,120.31243 39.48047,120.31243"
        id="path1160"
        sodipodi:nodetypes="ccsc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Kohinoor Telugu';-inkscape-font-specification:'Kohinoor Telugu';fill:none;stroke:#000000;stroke-width:0.529167;stroke-dasharray:none;stroke-opacity:1"
-       x="61.886665"
-       y="88.544502"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.5812px;font-family:'Kohinoor Telugu';-inkscape-font-specification:'Kohinoor Telugu';fill:none;stroke:#000000;stroke-width:0.29104162;stroke-dasharray:none;stroke-opacity:1"
+       x="57.783989"
+       y="99.778755"
        id="text1274"><tspan
          sodipodi:role="line"
          id="tspan1272"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Kohinoor Telugu';-inkscape-font-specification:'Kohinoor Telugu';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167"
-         x="61.886665"
-         y="88.544502">$</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.5812px;font-family:'Kohinoor Telugu';-inkscape-font-specification:'Kohinoor Telugu';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29104162;stroke-dasharray:none"
+         x="57.783989"
+         y="99.778755">$</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.09974;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="M 66.94244,30.739215 V 26.459862"
-       id="path1457" />
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.85208;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 64.278623,8.0174344 V 0.53069822"
+       id="path1457"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
