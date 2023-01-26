@@ -1,8 +1,6 @@
-<div class="pb-12">
-  <h2 class="font-bold tracking-widest text-4xl">What we offer</h2>
-  <div class="md:flex md:flex-row md:justify-evenly md:gap-8 items-start">
-    {% for section in collections.offer %}
-      <div class="text-lg">{{ section.templateContent | safe }}</div>
-    {% endfor %}
-  </div>
+<h2 class="font-bold tracking-widest text-4xl text-left">What we offer</h2>
+<div class="pb-12 text-lg md:flex md:flex-row md:justify-evenly md:gap-8 items-start">
+  {% for section in collections.offer %}
+    {{ section.templateContent | safe }}
+  {% endfor %}
 </div>
