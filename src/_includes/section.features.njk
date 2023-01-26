@@ -1,0 +1,6 @@
+<h2 class="font-bold tracking-widest text-4xl text-left pb-4">Features</h2>
+<div class="pb-12 text-lg md:grid md:grid-cols-3 md:justify-items-center md:gap-8 md:items-start [&>p]:w-full [&>p]:pl-10 [&>p>strong]:border-b-2 [&>p>strong]:border-blue-500 [&>p>strong]:block [&>p>strong]:text-blue-900 -ml-10">
+  {% for section in collections.features %}
+    {{ section.templateContent | safe }}
+  {% endfor %}
+</div>
