@@ -1,7 +1,7 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'register' %}
     <div id="register" class="w-full rounded-lg flex flex-col items-center bg-stone-800 p-5 md:px-20">
-      <div class="text-stone-100">
+      <div class="text-blue-200">
         <h2 class="self-center text-center w-full font-bold tracking-widest mt-5 font-light text-3xl">{{ item.templateContent | safe }}</h2>
 
         <form class="flex flex-col my-10 items-center"
@@ -23,13 +23,13 @@
                    placeholder="Email"
                    id="email"
                    required />
-            <button class="py-2 px-4 bg-purple-600 text-stone-100" type="submit">Subscribe</button>
+            <button class="py-2 px-4 bg-blue-700 text-stone-100" type="submit">Subscribe</button>
           </div>
 
           <div>
            <label for="gdpr">
              <input type="checkbox" id="gdpr" name="gdpr" value="Y" required />
-             <span class="text-md font-light text-gray-200">
+             <span class="text-md font-light text-blue-100">
                I agree with the
                <a href="/privacy/"
                   class="underline hover:no-underline hover:text-purple-600"
