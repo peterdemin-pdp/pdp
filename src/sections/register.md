@@ -4,4 +4,4 @@ type: register
 
 Sign Up for Early Access!
 
-Get notified when we go live!
+Get notified when we go live.
