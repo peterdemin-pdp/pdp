@@ -1,6 +1,10 @@
-<h2 class="font-bold tracking-widest text-4xl text-left pb-4 text-blue-900">Features</h2>
-<div class="pb-4 text-lg md:grid md:grid-cols-3 md:justify-items-center md:gap-8 md:items-start [&>p]:w-full [&>p]:pb-4 [&>p>strong]:border-b-2 [&>p>strong]:border-blue-500 [&>p>strong]:block [&>p>strong]:text-blue-900">
-  {% for section in collections.features %}
-    {{ section.templateContent | safe }}
-  {% endfor %}
-</div>
+{% extends "_section_alt.njk" %}
+
+{% block section %}
+  <h2 class="font-bold tracking-widest text-4xl text-left pb-4 text-blue-200">Features</h2>
+  <div class="pb-4 text-lg text-blue-200 md:grid md:grid-cols-3 md:justify-items-center md:gap-8 md:items-start [&>p]:w-full [&>p]:pb-4 [&>p>strong]:border-b-2 [&>p>strong]:border-blue-500 [&>p>strong]:block [&>p>strong]:text-blue-200">
+    {% for section in collections.features %}
+      {{ section.templateContent | safe }}
+    {% endfor %}
+  </div>
+{% endblock %}

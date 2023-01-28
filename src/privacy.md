@@ -1,5 +1,5 @@
 ---
-layout: privacy.njk
+layout: base.njk
 title: Privacy Policy
 ---
 

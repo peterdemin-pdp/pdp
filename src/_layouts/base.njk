@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en" class="min-h-screen bg-gradient-to-b from-cyan-700 to-blue-800">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
-    <title>{% if title %}{{ title }} | {% endif %}Payday Protection</title>
-  </head>
-  <body>
-    <main class="mx-auto flex flex-col max-w-screen-lg p-10 lg:shadow-lg lg:shadow-blue-900 lg:rounded bg-blue-200 lg:my-10 md:px-20">
-      {{ content | safe }}
-    </main>
-  </body>
-</html>
+---
+layout: body.njk
+---
+
+<div class="mx-auto max-w-screen-lg bg-transparent lg:mt-10 lg:shadow-lg lg:shadow-blue-900">
+  <a href="{{ '/' | url }}">
+    <div class="w-full flex flex-col items-center lg:rounded-t md:px-20 py-10 h-1/2 md:flex-row md:gap-8 bg-blue-900 text-blue-100">
+      {% include "section.header.njk" %}
+    </div>
+  </a>
+</div>
+<main class="mx-auto max-w-screen-lg p-5 md:p-10 lg:shadow-lg lg:shadow-blue-900 lg:rounded-b bg-blue-200 lg:mb-10 md:px-20 [&>p]:mb-2 text-lg">
+  <h1 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">{{ title }}</h1>
+  {{ content | safe }}
+</main>

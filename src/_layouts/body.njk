@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen bg-gradient-to-b from-cyan-700 to-blue-800">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
+    <title>{% if title %}{{ title }} | {% endif %}Payday Protection</title>
+  </head>
+  <body>
+    {{ content | safe }}
+  </body>
+</html>

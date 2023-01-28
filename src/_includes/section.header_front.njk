@@ -1,0 +1,11 @@
+<div class="py-12 self-center flex flex-col items-center md:flex-row md:gap-8">
+  <img class="max-h-60" src="/assets/images/logo.svg" alt="Payday protection logo">
+  <div>
+    <h2 class="font-bold tracking-widest text-5xl text-center md:text-left">Payday Protection</h2>
+    {% for section in collections.slogan %}
+      <div class="text-lg text-center md:text-left">{{ section.templateContent | safe }}</div>
+    {% endfor %}
+  </div>
+</div>
+
+<iframe class="mx-auto mb-4 shadow-xl" width="383" height="400" src="https://www.youtube-nocookie.com/embed/HxNtzigST0w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
