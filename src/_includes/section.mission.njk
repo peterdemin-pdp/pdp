@@ -1,10 +1,8 @@
 {% extends "_section.njk" %}
 
 {% block section %}
-  <div class="pb-12">
-    <h2 class="font-bold tracking-widest text-4xl pb-4 text-blue-900">Our Mission</h2>
-    {% for section in collections.mission %}
-      <div class="text-lg">{{ section.templateContent | safe }}</div>
-    {% endfor %}
-  </div>
+  <h2 class="font-bold tracking-widest text-4xl pb-4 text-blue-900">Our Mission</h2>
+  {% for section in collections.mission %}
+    <div class="text-lg">{{ section.templateContent | safe }}</div>
+  {% endfor %}
 {% endblock %}
