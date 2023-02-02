@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="w-full min-h-screen bg-fixed bg-center bg-cover" style="background-image: url('{{ background | url }}')">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
+    <title>{% if title %}{{ title }} | {% endif %}Payday Protection</title>
+  </head>
+  <body class="flex flex-col h-screen items-center align-center place-content-center">
+    <img class="max-h-60 mb-20" src="/assets/images/logo.svg" alt="Payday protection logo">
+
+    <div class="backdrop-blur-sm bg-white/30 rounded-lg p-20 text-center">
+      <div class="text-3xl text-center">
+        {{ content | safe }}
+      </div>
+
+    <form class="flex flex-col my-10 items-center"
+          id="newsletter"
+          name="newsletter"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="name">
+      <div hidden aria-hidden="true">
+        <label>
+          Don’t fill this out if you're human: 
+          <input name="name" />
+        </label>
+      </div>
+      <div class="flex flex-col md:flex-row gap-4 mb-2 text-xl">
+        <input class="py-2 px-4 w-60 text-black"
+               type="email"
+               name="email"
+               placeholder="Email"
+               id="email"
+               required />
+        <button class="py-2 px-4 bg-blue-700 text-stone-100" type="submit">Subscribe</button>
+      </div>
+  
+        <div>
+         <label for="gdpr">
+           <input type="checkbox" id="gdpr" name="gdpr" value="Y" required />
+           <span class="text-md font-light">
+             I agree with the
+             <a href="/privacy/"
+                class="underline hover:no-underline hover:text-purple-600"
+                target="_blank">Privacy Policy</a>
+           </span>
+         </label>
+        </div>
+      </form>
+  
+    </div>
+
+  <script type="text/javascript">
+      const processForm = form => {
+        const data = new FormData(form)
+        data.append('form-name', 'newsletter');
+        fetch('/', {
+          method: 'POST',
+          body: data,
+        })
+        .then(() => {
+          form.innerHTML = `Almost there! Check your inbox for a confirmation e-mail.`;
+        })
+        .catch(error => {
+          form.innerHTML = `Error: ${error}`;
+        })
+      }
+  
+      const emailForm = document.querySelector('#newsletter')
+      emailForm.addEventListener('submit', e => {
+        e.preventDefault();
+        processForm(emailForm);
+      })
+  </script>
+
+
+  </body>
+</html>
