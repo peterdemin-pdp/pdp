@@ -7,36 +7,40 @@
     <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
     <title>{% if title %}{{ title }} | {% endif %}Payday Protection</title>
   </head>
-  <body class="flex flex-col h-screen items-center align-center place-content-center">
-    <img class="max-h-60 mb-20" src="/assets/images/logo.svg" alt="Payday protection logo">
+  <body class="flex flex-col min-h-screen items-center align-center place-content-center">
 
-    <div class="backdrop-blur-sm bg-white/30 rounded-lg p-20 text-center">
+    <a href="{{ "/" | url }}">
+      <img class="mx-auto max-h-60" src="/assets/images/logo.svg" alt="Payday protection logo">
+      <h1 class="text-3xl mb-10 text-center">{{ title }}</h1>
+    </a>
+
+    <div class="backdrop-blur-sm bg-white/30 rounded p-10 text-center">
       <div class="text-3xl text-center">
         {{ content | safe }}
       </div>
 
-    <form class="flex flex-col my-10 items-center"
-          id="newsletter"
-          name="newsletter"
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="name">
-      <div hidden aria-hidden="true">
-        <label>
-          Don’t fill this out if you're human: 
-          <input name="name" />
-        </label>
-      </div>
-      <div class="flex flex-col md:flex-row gap-4 mb-2 text-xl">
-        <input class="py-2 px-4 w-60 text-black"
-               type="email"
-               name="email"
-               placeholder="Email"
-               id="email"
-               required />
-        <button class="py-2 px-4 bg-blue-700 text-stone-100" type="submit">Subscribe</button>
-      </div>
-  
+      <form class="flex flex-col mt-10 items-center"
+            id="newsletter"
+            name="newsletter"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="name">
+        <div hidden aria-hidden="true">
+          <label>
+            Don’t fill this out if you're human: 
+            <input name="name" />
+          </label>
+        </div>
+        <div class="flex flex-col md:flex-row gap-4 mb-2 text-xl">
+          <input class="py-2 px-4 w-60 text-black"
+                 type="email"
+                 name="email"
+                 placeholder="Email"
+                 id="email"
+                 required />
+          <button class="py-2 px-4 bg-blue-700 text-stone-100" type="submit">Subscribe</button>
+        </div>
+
         <div>
          <label for="gdpr">
            <input type="checkbox" id="gdpr" name="gdpr" value="Y" required />
@@ -49,8 +53,10 @@
          </label>
         </div>
       </form>
-  
+
     </div>
+
+  <a class="text-2xl font-light rounded-full bg-black text-white px-5 py-2 mt-2" href="{{ "/" | url }}">Learn more &rarr;</a>
 
   <script type="text/javascript">
       const processForm = form => {
@@ -67,7 +73,7 @@
           form.innerHTML = `Error: ${error}`;
         })
       }
-  
+
       const emailForm = document.querySelector('#newsletter')
       emailForm.addEventListener('submit', e => {
         e.preventDefault();
