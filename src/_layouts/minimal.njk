@@ -10,7 +10,7 @@
   <body class="flex flex-col min-h-screen items-center align-center place-content-center">
 
     <a href="{{ "/" | url }}">
-      <img class="mx-auto max-h-60" src="/assets/images/logo.svg" alt="Payday protection logo">
+      <img class="mx-auto max-h-60 mix-blend-multiply" src="/assets/images/logo.svg" alt="Payday protection logo">
       <h1 class="text-3xl mb-10 text-center">{{ title }}</h1>
     </a>
 
@@ -35,10 +35,10 @@
           <input class="py-2 px-4 w-60 text-black"
                  type="email"
                  name="email"
-                 placeholder="Email"
+                 placeholder="{{ placeholder }}"
                  id="email"
                  required />
-          <button class="py-2 px-4 bg-blue-700 text-stone-100" type="submit">Subscribe</button>
+          <button class="py-2 px-4 bg-blue-700 text-stone-100" type="submit">{{ button }}</button>
         </div>
 
         <div>
@@ -56,7 +56,7 @@
 
     </div>
 
-  <a class="text-2xl font-light rounded-full bg-black text-white px-5 py-2 mt-2" href="{{ "/" | url }}">Learn more &rarr;</a>
+  <a class="text-2xl font-thin rounded-full bg-black text-white px-5 py-2 mt-2" href="{{ "/" | url }}">{{ learn_more | safe }}</a>
 
   <script type="text/javascript">
       const processForm = form => {
@@ -67,7 +67,7 @@
           body: data,
         })
         .then(() => {
-          form.innerHTML = `Almost there! Check your inbox for a confirmation e-mail.`;
+          form.innerHTML = `{{ confirmation }}`;
         })
         .catch(error => {
           form.innerHTML = `Error: ${error}`;
