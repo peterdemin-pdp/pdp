@@ -49,6 +49,7 @@ exports.handler = async function(event, context) {
       })
     }
   } catch (e) {
+      console.log(e)
       return {
         statusCode: 400,
         headers,
