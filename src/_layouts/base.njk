@@ -2,14 +2,16 @@
 layout: body.njk
 ---
 
-<div class="mx-auto max-w-screen-lg bg-transparent lg:mt-10 lg:shadow-lg lg:shadow-blue-900">
+<div>
   <a href="{{ '/' | url }}">
-    <div class="w-full flex flex-col items-center lg:rounded-t md:px-20 py-10 h-1/2 md:flex-row md:gap-8 bg-blue-900 text-blue-100">
-      {% include "section.header.njk" %}
+    <div class="w-full md:px-20 py-10 h-1/2 bg-blue-900 text-blue-100">
+      <div class="mx-auto max-w-screen-lg flex flex-col items-center md:flex-row md:gap-8">
+        {% include "section.header.njk" %}
+      </div>
     </div>
   </a>
 </div>
-<main class="mx-auto max-w-screen-lg p-5 md:p-10 lg:shadow-lg lg:shadow-blue-900 lg:rounded-b bg-blue-200 lg:mb-10 md:px-20 [&>p]:mb-2 text-lg">
+<main class="mx-auto max-w-screen-lg p-5 md:p-10 lg:mb-10 md:px-20 [&>p]:mb-2 text-lg">
   <h1 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">{{ title }}</h1>
   {{ content | safe }}
 </main>
