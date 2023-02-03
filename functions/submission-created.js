@@ -38,6 +38,8 @@ exports.handler = async function(event, context) {
       { skipMergeValidation: true }
     )
 
+    console.log(response)
+
     return {
       statusCode: 200,
       headers,
