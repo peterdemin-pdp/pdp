@@ -33,7 +33,7 @@ exports.handler = async function(event, context) {
       subscriberHash,
       {
         email_address: email,
-        status_if_new: 'pending',
+        status_if_new: 'subscribed',
       },
       { skipMergeValidation: true }
     )
