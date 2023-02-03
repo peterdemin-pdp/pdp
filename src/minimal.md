@@ -1,6 +1,6 @@
 ---
 layout: minimal.njk
-background: /assets/images/phone.jpg
+background: /assets/images/dreamstime_xxl_180528634.jpg
 title: Payday Protection
 tags: minimal
 button: Get Early Access 📨
