@@ -24,7 +24,7 @@ exports.handler = async function(event, context) {
   }
 
   console.log(event.body);
-  const { email } = JSON.parse(event.body).payload.email
+  const email = JSON.parse(event.body).payload.email
   const subscriberHash = crypto.createHash('md5').update(email).digest('hex')
 
   try {
