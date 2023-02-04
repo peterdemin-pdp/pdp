@@ -3,3 +3,4 @@ _site
 Session.vim
 .*.sw*
 .ipynb_checkpoints
+.DS_Store
