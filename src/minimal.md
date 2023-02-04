@@ -1,7 +1,7 @@
 ---
 layout: minimal.njk
 background: /assets/images/minimal_cover.jpg
-title: Payday Protection
+title:
 tags: minimal
 button: Get Early Access 📨
 placeholder: Enter email address
