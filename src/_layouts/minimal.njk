@@ -18,10 +18,9 @@
   <body class="flex flex-col min-h-screen items-center align-center place-content-center">
 
     <a href="{{ "/" | url }}">
-      <img style="float: left" class="mx-auto max-h-80" src="/assets/images/logo_v2_white.svg" alt="Payday protection logo">
+      <img class="mx-auto max-h-80" src="/assets/images/logo_v2_white.svg" alt="Payday protection logo">
     </a>
-    <br>
-    <div class="backdrop-blur-sm bg-white/80 rounded p-10 text-center">
+    <div class="backdrop-blur-sm bg-white/80 rounded p-5 md:p-10 mt-5 md:mt-10 text-center">
       <div class="text-3xl text-center">
         {{ content | safe }}
       </div>
@@ -63,7 +62,7 @@
 
     </div>
 
-  <a class="text-2xl font-thin rounded-full bg-black text-white px-5 py-2 mt-2" href="{{ "/" | url }}">{{ learn_more | safe }}</a>
+  <a class="text-2xl font-thin rounded-full bg-black text-white px-5 py-2 my-2" href="{{ "/" | url }}">{{ learn_more | safe }}</a>
 
   <script type="text/javascript">
       const processForm = form => {
