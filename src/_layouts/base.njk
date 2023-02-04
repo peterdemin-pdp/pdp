@@ -4,7 +4,7 @@ layout: body.njk
 
 <div>
   <a href="{{ '/' | url }}">
-    <div class="w-full md:px-20 py-10 h-1/2 bg-white-900 text-blue-0">
+    <div class="w-full md:px-20 py-10 h-1/2 bg-white-900 text-green-0">
       <div class="mx-auto max-w-screen-lg flex flex-col items-center md:flex-row md:gap-8">
         {% include "section.header.njk" %}
       </div>
@@ -12,6 +12,6 @@ layout: body.njk
   </a>
 </div>
 <main class="mx-auto max-w-screen-lg p-5 md:p-10 lg:mb-10 md:px-20 [&>p]:mb-2 text-lg">
-  <h1 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">{{ title }}</h1>
+  <h1 class="font-bold uppercase tracking-widest bg-blue-800 text-white-0 text-2xl mb-4">{{ title }}</h1>
   {{ content | safe }}
 </main>
