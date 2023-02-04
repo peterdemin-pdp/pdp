@@ -1,7 +1,7 @@
-<section class="mx-auto max-w-screen-lg md:px-20 md:py-10">
+<section class="w-full md:w-auto md:mx-auto md:rounded-lg bg-stone-800 max-w-screen-lg md:px-20 md:py-10">
   {% for item in collections.sections %}
     {% if item.data.type === 'register' %}
-      <div id="register" class="w-full md:rounded-lg flex flex-col items-center bg-stone-800 p-5 md:px-20">
+      <div id="register" class="flex flex-col items-center p-5 md:px-20">
         <div class="text-blue-200">
           <h2 class="self-center text-center w-full font-bold tracking-widest mt-5 font-light text-3xl">{{ item.templateContent | safe }}</h2>
   
