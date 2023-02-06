@@ -13,5 +13,8 @@ layout: body.njk
 </div>
 <main class="mx-auto max-w-screen-lg p-5 md:p-10 lg:mb-10 md:px-20 [&>p]:mb-2 text-lg">
   <h1 class="font-bold uppercase tracking-widest text-grey-800 text-2xl mb-4">{{ title }}</h1>
+  {% if image %}
+    <img class="w-full" src="{{ image }}" />
+  {% endif %}
   {{ content | safe }}
 </main>

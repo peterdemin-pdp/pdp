@@ -1,12 +1,12 @@
 ---
 layout: base.njk
-title: News
+title: Mass Layoff News Brings Fear and Uncertainty
+image: /assets/images/News_1.jpg
+date: 2023-02-05
+tags: news
+pathPrefix: /news/
+description: Recently, a wave of layoff news has swept across the country, leaving millions of workers in a state of uncertainty and fear. Many companies are struggling to stay afloat in the current economic climate, and layoffs are becoming an increasingly common way for them to cut costs. This is a difficult time for workers and their families, who are now left to face the consequences of losing their livelihoods.
 ---
-
-
-Mass Layoff News Brings Fear and Uncertainty (February, 2023)
-
-<br>
 
 Recently, a wave of layoff news has swept across the country, leaving millions of workers in a state of uncertainty and fear. Many companies are struggling to stay afloat in the current economic climate, and layoffs are becoming an increasingly common way for them to cut costs. This is a difficult time for workers and their families, who are now left to face the consequences of losing their livelihoods.
 

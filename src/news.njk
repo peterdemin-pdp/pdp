@@ -1,0 +1,10 @@
+---
+layout: base.njk
+title: News
+---
+
+{% for news in collections.news %}
+  <h2><a class="underline" href="{{ news.url }}">{{ news.data.title | safe }}</a></h2>
+  <p>{{ news.date | readableDate("LLLL yyyy") }}</p>
+  <p>{{ news.data.description | safe }}</p>
+{% endfor %}

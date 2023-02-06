@@ -32,6 +32,7 @@
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "crypto": "^1.0.1",
     "dotenv": "^16.0.3",
+    "luxon": "^3.2.1",
     "node-fetch": "^3.3.0"
   }
 }
