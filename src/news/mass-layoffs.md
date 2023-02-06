@@ -5,12 +5,8 @@ image: /assets/images/News_1.jpg
 date: 2023-02-05
 tags: news
 pathPrefix: /news/
-description: Recently, a wave of layoff news has swept across the country, leaving millions of workers in a state of uncertainty and fear. Many companies are struggling to stay afloat in the current economic climate, and layoffs are becoming an increasingly common way for them to cut costs. This is a difficult time for workers and their families, who are now left to face the consequences of losing their livelihoods.
+description: For employees concerned about the threat of layoffs, Payday Protection offers a solution. In the event of an unexpected job loss, it provides a safety net by allowing employees to protect their income. This helps to alleviate the financial stress and gives them peace of mind. With layoffs on the rise due to economic uncertainty, Payday Protection is a much-needed, innovative product for the American workforce.
 ---
-
-Abstract: "For employees concerned about the threat of layoffs, Payday Protection offers a solution. In the event of an unexpected job loss, it provides a safety net by allowing employees to protect their income. This helps to alleviate the financial stress and gives them peace of mind. With layoffs on the rise due to economic uncertainty, Payday Protection is a much-needed, innovative product for the American workforce."
-
-<br>
 
 Recently, a wave of layoff news has swept across the country, leaving millions of workers in a state of uncertainty and fear. Many companies are struggling to stay afloat in the current economic climate, and layoffs are becoming an increasingly common way for them to cut costs. This is a difficult time for workers and their families, who are now left to face the consequences of losing their livelihoods.
 
