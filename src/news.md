@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Privacy Policy
+title: News
 ---
 
 
