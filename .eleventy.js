@@ -3,6 +3,7 @@ const { DateTime } = require("luxon");
 module.exports = function(eleventyConfig){
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css");
   eleventyConfig.addPassthroughCopy("src/assets/images");
+  eleventyConfig.addPassthroughCopy("src/news/google8ad9845daf6f0b86.html");
   
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
