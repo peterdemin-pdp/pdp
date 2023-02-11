@@ -11,7 +11,9 @@
       <h1 class="pb-4">
         <span class="text-blue-900 text-5xl">{{ section.data.payment }}</span> / month
       </h1>
-      <p>{{ section.templateContent | safe }}</p>
+      <div class="ml-4 [&>ul]:list-disc [&>ul>li>strong]:text-xl">
+        {{ section.templateContent | safe }}
+      </div>
     </div>
   {% endfor %}
   </div>
