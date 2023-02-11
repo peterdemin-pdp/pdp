@@ -3,5 +3,5 @@ tags: pricing
 payment: $15
 ---
 
-* Payout amount grows by **$150** each month.
-* Caps after 10 months at **$1500** one-time payout.
+* With each month of subscription your payout amount grows by **$150**.
+* This plan caps at **$1500** one-time payout or $500 for three months.
