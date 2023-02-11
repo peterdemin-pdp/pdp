@@ -1,5 +1,6 @@
 ---
 tags: pricing_info
+title: Progressive coverage
 ---
 
 Your payout amount grows with every monthly payment.

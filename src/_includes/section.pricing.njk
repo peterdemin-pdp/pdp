@@ -1,8 +1,8 @@
 {% extends "_section.njk" %}
 
 {% block section %}
-  <h2 class="font-bold tracking-widest text-4xl pb-4 text-blue-900">Pricing</h2>
   {% for section in collections.pricing_info %}
+    <h2 class="font-bold tracking-widest text-4xl pb-4 text-blue-900">{{ section.data.title }}</h2>
     {{ section.templateContent | safe }}
   {% endfor %}
   <div class="pt-5 flex flex-col flex-stretch gap-5 w-full md:flex-row">
