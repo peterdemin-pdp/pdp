@@ -1,6 +1,6 @@
 ---
 layout: minimal.njk
-background: /assets/images/dreamstime_s_1946572.jpg
+background: /assets/images/dreamstime_s_146255325.jpg
 title:
 tags: minimal
 button: Get Early Access 📨
