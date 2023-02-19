@@ -1,9 +1,9 @@
-<section class="w-full md:w-auto md:mx-auto md:rounded-lg bg-stone-800 max-w-screen-lg md:px-20 md:py-10">
+<section class="w-full md:w-auto md:mx-auto md:rounded-lg bg-stone-800 max-w-screen-lg md:mt-10 md:px-20 md:py-10">
   {% for item in collections.sections %}
     {% if item.data.type === 'register' %}
       <div id="register" class="flex flex-col items-center p-5 md:px-20">
         <div class="text-blue-200">
-          <h2 class="self-center text-center w-full font-bold tracking-widest mt-5 font-light text-3xl">{{ item.templateContent | safe }}</h2>
+          <h2 class="self-center text-center w-full font-bold tracking-widest mt-5 font-light text-3xl text-ppgreen">{{ item.templateContent | safe }}</h2>
   
           <form class="flex flex-col my-10 items-center"
                 id="newsletter"
@@ -24,7 +24,7 @@
                      placeholder="Email"
                      id="email"
                      required />
-              <button class="py-2 px-4 bg-blue-700 text-stone-100" type="submit">Subscribe</button>
+              <button class="py-2 px-4 bg-ppgreen text-stone-900 shadow-lg shadow-ppgreen" type="submit">Subscribe</button>
             </div>
   
             <div>

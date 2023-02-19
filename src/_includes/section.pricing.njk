@@ -9,9 +9,9 @@
   {% endfor %}
   <div class="pt-5 text-lg flex flex-col flex-stretch gap-5 w-full md:flex-row">
   {% for section in collections.pricing | sortBy('payment') %}
-    <div class="flex flex-col py-8 px-4 bg-blue-900 text-white rounded shadow-lg shadow-blue-900">
+    <div class="flex flex-col py-8 px-4 bg-ppblue text-white rounded shadow-lg shadow-blue-900">
       <h1 class="text-center pt-5 pb-10">
-        <span class="text-5xl">{{ section.data.payment }}</span> / month
+        <span class="text-5xl text-ppgreen">{{ section.data.payment }}</span> / month
       </h1>
       <div class="ml-4 [&>ul]:list-disc [&_strong]:text-xl">
         {{ section.templateContent | safe }}

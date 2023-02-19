@@ -1,0 +1,8 @@
+{% extends "_section_alt.njk" %}
+
+{% block section %}
+  <div class="[&_h1]:font-bold [&_h1]:tracking-widest [&_h1]:text-4xl [&_h1]:text-left [&_h1]:pb-4 [&_strong]:text-ppgreen [&_h1]:text-ppgreen text-white [&_p]:pb-4 text-lg [&_hr]:my-2">
+  {% for section in collections.faq %}
+    {{ section.templateContent | safe }}
+  {% endfor %}
+{% endblock %}

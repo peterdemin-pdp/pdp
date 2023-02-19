@@ -1,0 +1,8 @@
+{% extends "_section.njk" %}
+
+{% block section %}
+  <div class="w-full [&_h1]:font-bold [&_h1]:tracking-widest [&_h1]:text-4xl [&_h1]:text-left [&_h1]:pb-4 [&_h1]:text-blue-900 [&_p]:pb-4 text-lg">
+  {% for section in collections.explanation %}
+    {{ section.templateContent | safe }}
+  {% endfor %}
+{% endblock %}
